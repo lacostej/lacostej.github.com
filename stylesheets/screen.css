@@ -1,0 +1,192 @@
+* {
+  /* Use modern box sizing */
+  box-sizing: content-box;
+}
+
+/*
+Eric Meyer's CSS reset
+http://meyerweb.com/eric/thoughts/2007/05/01/reset-reloaded/
+*/
+html, body, div, span, applet, object, iframe, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li, 
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, table td, table tr, button, textarea, input {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+body {
+  background: #000 url(http://media1.origo.no/-/cache/gradient/h_350_444_000.png) repeat-x left top;
+  font-family: "Helvetica", Arial, sans-serif;
+  font-size: 10pt;
+  margin-bottom: 90px;
+  color: #222;
+}
+
+input, textarea {
+  border: solid 1px #bbb;
+  padding: 5px;
+}
+
+code, pre, tt {
+  font-family: "Consolas", monospace;
+}
+
+pre {
+  margin: 0;
+  padding: 0;
+}
+
+strong {
+  font-weight: bold;
+}
+
+ul {
+  margin-left: 16px;
+}
+
+ul li {
+  list-style: none;
+  background: url(/images/bullet_blue.png) no-repeat left 0.7em;
+  padding-top: 4px;
+  padding-left: 16px;
+}
+
+p,
+ul li {
+  margin: 10px 0;
+  line-height: 150%;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #06d;
+}
+
+a:hover,
+a:active {
+  background: #38e;
+  color: #fff !important;
+}
+
+.clear {
+  overflow: hidden;
+  height: 0px;
+  clear: both;
+}
+
+.blog_title {
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 650px;
+  padding: 0 50px;
+  font-size: 60pt;
+  font-weight: bold;
+  letter-spacing: -3px;
+  color: #fff;
+  z-index: -100;
+}
+
+.blog_title a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.about {
+  font-size: 9pt;
+  width: 650px;
+  padding: 0 50px;
+  padding-bottom: 20px;
+  color: #bbb;
+  margin: 0 auto;
+  line-height: 150%;
+}
+
+.about strong {
+  color: #fff;
+}
+
+.about .about_column {
+  width: 210px;
+  float: left;
+  margin-right: 5px;
+}
+
+.about a {
+  color: #888;
+}
+
+.wrapper {
+  padding: 40px 0;
+  background: #fff;  
+}
+
+.content {
+  padding: 0 40px;
+  margin: 0 auto;
+  z-index: 1000;
+  width: 650px;
+}
+
+.posts .post {
+  margin-top: 20px;
+}
+
+.posts .post:first-child {
+  margin-top: 0;
+}
+
+.post h2 {
+  font-weight: bold;
+  font-size: 30pt;
+  letter-spacing: -1px;
+  margin-bottom: 10px;
+  line-height: 100%;
+}
+
+.post h2 a {
+  color: inherit;
+}
+
+.post .byline .date {
+  font-size: 10pt;
+  color: #aaa;
+}
+
+.body {
+  font-size: 11pt;
+}
+
+textarea.big {
+  font-size: 14pt;
+}
+
+.page_footer {
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 650px;
+  padding: 0 50px;
+}
+
+.page_footer a:link {
+  color: #ccc;
+  background: url(/images/feed_16x16.png) no-repeat 0 0.6em;
+  padding-left: 22px;
+  padding-top: 8px;
+}
