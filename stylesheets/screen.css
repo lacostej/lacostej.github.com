@@ -94,7 +94,7 @@ a:active {
 .blog_title {
   margin: 0 auto;
   margin-top: 30px;
-  width: 650px;
+  width: 870px;
   padding: 0 50px;
   font-size: 60pt;
   font-weight: bold;
@@ -110,7 +110,7 @@ a:active {
 
 .about {
   font-size: 9pt;
-  width: 650px;
+  width: 870px;
   padding: 0 50px;
   padding-bottom: 20px;
   color: #bbb;
@@ -141,7 +141,7 @@ a:active {
   padding: 0 40px;
   margin: 0 auto;
   z-index: 1000;
-  width: 650px;
+  width: 870px;
 }
 
 .posts .post {
@@ -180,7 +180,7 @@ textarea.big {
 .page_footer {
   margin: 0 auto;
   margin-top: 30px;
-  width: 650px;
+  width: 870px;
   padding: 0 50px;
 }
 
